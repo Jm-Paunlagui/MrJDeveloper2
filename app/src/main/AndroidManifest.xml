@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jmepaunlagui.mrjdeveloper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/developer"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/developer_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".DefinitionHomeActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".CodeHomeActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".TipsHomeActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".DefinitionQuizActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".CodeQuizActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".StartingScreenAtivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+        <activity android:name=".QuizActivity"
+            android:screenOrientation="nosensor"
+            android:resizeableActivity="true"/>
+    </application>
+
+</manifest>
